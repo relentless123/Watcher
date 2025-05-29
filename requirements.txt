@@ -1,0 +1,10 @@
+agno
+browser-use==0.1.40
+google-genai
+gradio
+numpy
+streamlit
+langchain-google-genai
+langchain-openai
+langchain-anthropic
+langchain-groq
