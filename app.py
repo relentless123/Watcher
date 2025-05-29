@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 from datetime import datetime
 
 
-from src.Agents.agents import qa_agent 
 from browser_use import Browser, Agent as BrowserAgent
 from src.Utilities.utils import controller 
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -72,7 +71,7 @@ def create_interface():
         gr.Markdown("# WATCHER")
         gr.Markdown("Agentic Content Moderator")
         
-        with gr.Tab("Gherkin Generation"):
+        with gr.Tab("Check Content Moderation"):
             with gr.Column():
                   
                 url_input = gr.Textbox(
